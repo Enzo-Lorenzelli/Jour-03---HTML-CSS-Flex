@@ -1,0 +1,50 @@
+.parent {
+  display: flex;
+  height: 200px;
+}
+
+a {display: inline-block;}
+
+.Service {background-color: brown;
+   flex: 1;
+   position: relative;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .link{background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;}
+
+    .link li {
+      list-style: none; /* Supprimer les puces de liste */
+  }
+
+
+
+    .center{background-color: blueviolet;
+    display: flex;
+    justify-content: center;}
+
+    .block1{background-color: yellowgreen;
+    flex: 1;
+    position:static;
+            left: 0%;
+            right: 0%;
+            height: 200px;
+
+    display: flex;
+    display: inline-block;
+    flex-direction: column;}
+        
+    .block2{background-color: red;
+    order: 2;}
+
+    .block3{background-color: blue;
+    order: 3;}
+
+    .image{background-color: darkcyan;}
+
+    .image2{background-color: hotpink;}
